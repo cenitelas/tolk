@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Medium';
+    src: url('HelveticaNeueCyr-Medium.eot');
+    src: url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body *{
+margin: 0 auto;
+padding: 0;
+width: 100%;
+font-family: 'Helvetica Neue Cyr Medium';
+}
+
+.content{
+margin: 0 auto;
+width: 91%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.content .header{
+width: 100%;
+height: auto;
+margin-top: 4.5%;
+}
+
+.content .header .logo{
+    width: 13.5%;
+    margin-top: 0.6%;
+    height: auto;
+    float: left;
+}
+
+.content .header .menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.content .header .menu{
+    width: 36.5%;
+    float: right;
+}
+.content .header .menu ul li{
+    padding-left:7.7%;
+}
+.content .header .menu ul li a{
+text-decoration: none;
+font-size: 103%;
+font-weight: 500;
+letter-spacing: 1px;
+color: black;
+}
+
+.content .first-middle{
+    margin-top: 7.2%;
+    width: 100%;
+}
+
+.content .first-middle p{
+color: #6c6a6a;
+font-size: 355%;
+float: left;
+letter-spacing: 0.5px;
+padding-bottom: 1%;
+}
+
+h4{
+    padding: 1% 0;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.content .second-middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content .second-middle .left{
+width: 50%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.content .second-middle .right{
+width: 50%;
+}
+.content .second-middle .left .top{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+}
+
+.content .second-middle .left .top *{
+width: 45%;
+
+}
